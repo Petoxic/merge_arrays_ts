@@ -1,4 +1,4 @@
-function merge(collection_1: number[], collection_2: number[]): number[] {
+export function merge(collection_1: number[], collection_2: number[]): number[] {
     // length of two arrays
     const len_1: number = collection_1.length;
     const len_2: number = collection_2.length;

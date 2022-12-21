@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.merge = void 0;
 function merge(collection_1, collection_2) {
     const len_1 = collection_1.length;
     const len_2 = collection_2.length;
@@ -20,3 +22,4 @@ function merge(collection_1, collection_2) {
     }
     return answer;
 }
+exports.merge = merge;
